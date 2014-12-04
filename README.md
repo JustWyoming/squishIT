@@ -1,0 +1,4 @@
+squishIT
+========
+
+tiny URL squisher
