@@ -1,0 +1,66 @@
+/* styles */
+body{
+	background-color: #FFFAE3;
+	font-family: 'PT Mono';
+}
+
+h1, h2, h3, h4 {
+	font-family: 'PT Mono';
+}
+
+.squishForm{
+	float:clear;
+	margin-top: 7%;
+}
+.urlSquish{
+	width: 225px;
+	height: 30px;
+	background-color: rgba(204, 171, 76, 0.5);
+	border-radius: 7px;
+	padding: 3px;
+	
+}
+.squishButton{
+	width: 75px;
+	height: 30px;
+	border-radius: 7px;
+	background-color: rgb(52, 103, 115);
+	color: rgb(204, 171, 76);
+	padding: 5px;
+
+}
+.headerDiv{
+	margin-top: 20px;
+
+}
+
+.colorDivide{
+	background-color: #346773;
+	height: 500px;
+}
+.squishCopy{
+	background-color: #346773;
+	color: #ccab4c;
+
+}
+.squishCopy,p{
+	padding-bottom: 10px;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+   color: #AF342D;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #AF342D;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #AF342D;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color: #AF342D;
+}
+@media (max-width: 300px){
+
+}
