@@ -62,6 +62,4 @@ app.get("/:id", function(req,res){
 // })
 
 ///listener///
-app.listen(3000, function(){
-	console.log("ready to go!");
-})
+app.listen(process.env.PORT || 3000);
