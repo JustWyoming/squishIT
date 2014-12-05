@@ -27,10 +27,10 @@ app.post("/create", function(req, res){
 			myUrl.squish_code = squishResults;
 			myUrl.save().done(function(err, data2){
 				console.log("created token", myUrl.squish_code);
-			 res.render("create", {"squish_code": data2.squish_code});
+			 res.render("create", {"host": req.headers.host, "squish_code": data2.squish_code});
 		})
 		} else{
-			res.render("create", {"squish_code": myUrl.squish_code})
+			res.render("create", {"host": req.headers.host, "squish_code": myUrl.squish_code})
 		}
 	})
 				
