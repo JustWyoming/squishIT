@@ -1,8 +1,13 @@
 /* styles */
 body{
-	background-color: #FFFAE3;
+	background-color: #346773;
 	font-family: 'PT Mono';
 }
+
+header {
+	background-color: #FFFAE3;
+}
+
 
 h1, h2, h3, h4 {
 	font-family: 'PT Mono';
@@ -32,11 +37,12 @@ h1, h2, h3, h4 {
 .headerDiv{
 	margin-top: 20px;
 
+
 }
 
 .colorDivide{
-	background-color: #346773;
-	height: 500px;
+	
+	/*height: 500px;*/
 }
 .squishCopy{
 	background-color: #346773;
